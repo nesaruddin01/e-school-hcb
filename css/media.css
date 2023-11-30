@@ -1,0 +1,289 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+            /* header start  */
+            header{
+                padding: 0;
+            }
+            .logo{
+                width: 180px;
+            }
+            .menu ul li a{
+                padding: 6px 12px !important;
+                text-align: end;
+            }
+            .btn_sign{
+                float: right;
+            }
+
+    /* banner start  */
+    .banner{
+        padding-bottom: 30px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .bh1 {
+        margin: 10px 0 8px;
+        padding: 0 36px;
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .bp2 {
+        padding: 0;
+        line-height: 18px;
+    }
+    .b_img {
+        margin-bottom: 3px;
+        padding: 0;
+    }
+
+
+    /* feature start  */
+    .p_common{
+        padding-bottom: 50px;
+        }
+    .s_feature{
+        margin: 25px 0 0;
+    }    
+    /*feature start*/
+    .p_c {
+        padding-bottom: 60px;
+    }
+    .s_feature {
+        margin: 30px 0 0;
+    }
+
+
+    /*couses start*/
+    .c_h1{
+        font-size: 30px;
+    }
+    .sc_course {
+        margin: 40px 0 0;
+        padding: 20px 15px 25px;
+    }
+    .scil:not(:last-child) {
+        margin-right: 0px;
+    }
+    .sc_left ul li span, .sc_right ul li span {
+        font-size: 14px;
+    }
+
+
+    /*testimony start*/
+    .testimony{
+        padding-bottom: 60px;
+    }
+    .t_item{
+        margin-top: 30px;
+    }
+    .t_img{
+        padding: 0 60px 20px;
+    }
+    .t_text{
+        text-align: center;
+    }
+
+
+    /*footer top start*/
+    .footer_top{
+        text-align: center;
+        padding: 55px o 20px;
+
+    }
+    .ft_details{
+        margin-bottom: 35px;
+        padding-right: 0;
+    }
+    .ft_links{
+        margin-bottom: 35px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header start  */
+    header{
+        padding: 0;
+    }
+    .logo{
+        width: 195px;
+    }
+    .menu ul li a{
+        padding: 3px 0 !important;
+        text-align: end;
+    }
+    .btn_sign{
+        float: right;
+    }
+
+    /* banner start  */
+    .banner{
+        padding-bottom: 55px;
+    }
+    .b_text {
+        text-align: center;
+    }
+    .bh1 {
+        margin: 10px 0 8px;
+        padding: 0 80px;
+        font-size: 32px;
+        line-height: 31px;
+    }
+    .bp2 {
+        padding: 0 50px;
+        line-height: 21px;
+    }
+    .b_img {
+        margin-bottom: 11px;
+        padding: 0 67px;
+    }
+
+    /* feature start  */
+    .p_common{
+        padding-bottom: 60px;
+    }
+    .s_feature{
+        margin: 35px 0 0;
+    }   
+
+    /*course start*/
+    .c_h1{
+        font-size: 30px;
+    }
+    .sc_course{
+        margin: 40px 70px 0;
+    }
+    /*testimony start*/
+    .testimony{
+        padding-bottom: 60px;
+    }
+    .t_item{
+        margin-top: 30px;
+    }
+    .t_img{
+        padding: 0 120px 20px;
+    }
+    .t_text{
+        text-align: center;
+    }
+    /*footer top start*/
+    .footer_top{
+        text-align: center;
+    }
+    .ft_details{
+        margin-bottom: 30px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start  */
+    .menu ul li a{
+        padding: 5px 0 !important;
+        text-align: end;
+    }
+    .btn_sign{
+        float: right;
+    }
+
+    /* banner start  */
+    .b_text {
+        text-align: center;
+    }
+    .bh1 {
+        margin: 10px 0 8px;
+        padding: 0 142px;
+        font-size: 40px;
+        line-height: 41px;
+    }
+    .bp2 {
+        padding: 0 100px;
+        line-height: 25px;
+    }
+    .b_img {
+        margin-bottom: 26px;
+        padding: 0 120px;
+    }
+
+    /* feature start  */
+    .p_common{
+        padding-bottom: 80px;
+    }
+
+    /*course start*/
+    .sc_course{
+        margin: 40px 150px 0;
+    }
+    /*testimony start*/
+    .testimony{
+        padding-bottom: 80px;
+    }
+    .t-item{
+        margin-top: 40px;
+    }
+    /*footer top start*/
+    .footer_top{
+        text-align: center;
+    }
+    .ft_details{
+        margin-bottom: 30px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner start  */
+    .bh1 {
+        padding: 0 29px 0 0;
+    }
+    .bp2 {
+        padding: 0 51px 0 0;
+    }
+    /*course start*/
+    .sc_course{
+        padding: 20px 15px 25px;
+    }
+    .scli:not(:last-child){
+        margin-right: 0px;
+    }
+    .sc_left ul li img, .sc_right ul li img{
+        width: 20px;
+    }	
+    .sc_left ul li span, .sc_right ul li span{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .t_text{
+        margin-top: 3px;
+        line-height: 2;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* banner start  */
+    .bh1 {
+        padding: 0 37px 0 0;
+    }
+    .bp2 {
+        padding: 0 45px 0 0;
+    }
+    .t_text{
+        margin-top: 8px;
+        line-height: 2;
+    }
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    .t_text{
+        margin-top: 42px;
+        line-height: 2;
+    }
+}

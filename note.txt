@@ -1,0 +1,28 @@
+figma to html
+
+color: 
+black  -  #FFF
+pink   -  #56548C
+pink light-  #413960
+extra pink light -  #413960
+white  -  #FFF
+orange -  #FD511A
+green  -  #21B573
+
+font family:
+Poppins: 400, 500, 700---- font-family: 'Poppins', sans-serif;
+roboto: 400------ font-family: 'Roboto', sans-serif;
+
+responsiveness:
+alignment
+order
+spacing
+font-size
+
+               xxl-xl-lg      md        sm-col 
+padding:       100-120      80-100       50-70
+
+font size:
+
+banner:
+h1              48px        40px             
